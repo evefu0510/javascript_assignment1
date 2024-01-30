@@ -1,0 +1,59 @@
+/* Styles for the overall document body */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font for the entire document */
+    background-color: #f0f0f0; /* Set the background color of the document */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for the main heading */
+h1 {
+    color: #333; /* Set the text color of the heading */
+    text-align: center; /* Center align the heading */
+    margin: 20px 0; /* Add margin to the top and bottom of the heading */
+}
+
+/* Styles for each section in the document */
+section {
+    margin: 20px; /* Add margin around each section */
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px; /* Add padding to buttons */
+    margin: 5px; /* Add margin around buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for button hover effect */
+button:hover {
+    background-color: lightgray; /* Change background color on hover */
+    transform: scale(1.1); /* Scale button slightly on hover */
+    transition: transform 0.3s ease; /* Add smooth transition for scaling effect */
+}
+
+/* Styles for paragraphs */
+p {
+    margin: 10px 0; /* Add margin to paragraphs */
+}
+
+/* Styles for the story paragraph */
+#story {
+    font-style: italic; /* Set text to italic */
+    font-size: 18px; /* Set font size for the story */
+    line-height: 1.5; /* Set line height for better readability */
+    font-weight: bold; /* Set bold font weight for emphasis */
+}
+
+/* Responsive design for screens up to 600px width */
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    button {
+        width: 100%; /* Make buttons fill the entire width on smaller screens */
+    }
+}

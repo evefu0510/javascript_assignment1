@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="js/storymaker.js" defer></script> <!-- Include the JavaScript file for story making with 'defer' attribute for deferred execution -->
+	<link href="css/styles.css" rel="stylesheet" /> <!-- Include the stylesheet for styling the HTML document -->
+</head>
+
+<body>
+<h1>See-N-Say Storymaker</h1>
+<button id="addStudentId">Show Student ID</button>
+<p id="studentId"></p> <!-- Placeholder for displaying student ID -->
+<section>
+	<!-- Section with all the buttons for the user to build their story -->
+	<h2>Create Your Story</h2>
+	<button id="noun1">Noun 1</button>
+	<p id="choosenNoun1"></p> <!-- Placeholder for displaying the chosen Noun 1 -->
+	<button id="verb">Verb</button>
+	<p id="choosenVerb"></p> <!-- Placeholder for displaying the chosen Verb -->
+	<button id="adjective">Adjective</button>
+	<p id="choosenAdjective"></p> <!-- Placeholder for displaying the chosen Adjective -->
+	<button id="noun2">Noun 2</button>
+	<p id="choosenNoun2"></p> <!-- Placeholder for displaying the chosen Noun 2 -->
+	<button id="setting">Setting</button>
+	<p id="choosenSetting"></p> <!-- Placeholder for displaying the chosen Setting -->
+</section>
+<section>
+	<!-- Section with playback controls to see or hear the story -->
+	<h2>See Your Story</h2>
+	<button id="playback">Show Story</button>
+	<button id="random">Random Story</button>
+	<button id="reset">Reset Story</button>
+	<!-- Empty paragraph to reset the story -->
+	<p id="story"></p> <!-- Placeholder for displaying the generated story -->
+</section>
+</body>
+
+</html>
